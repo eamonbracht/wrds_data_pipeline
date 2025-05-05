@@ -1,0 +1,4 @@
+wrds
+pandas
+numpy
+tqdm
