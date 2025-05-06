@@ -1,3 +1,4 @@
+
 # TAQ Correlation Matrix Generator
 
 This script connects to the WRDS database to pull high-frequency TAQ (Trade and Quote) data for S&P 500 stocks, calculates correlation matrices over specified time intervals, and saves them as CSV files.
@@ -52,3 +53,4 @@ Each row and column represents a PERMNO (stock ID). Values are Pearson correlati
   - `pandas`
   - `numpy`
   - `tqdm`
+
