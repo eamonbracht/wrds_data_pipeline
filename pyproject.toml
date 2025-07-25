@@ -1,0 +1,19 @@
+[project]
+name = "TAQpipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Eamon Bracht", email = "eamonbracht@gmail.com"},
+  {name = "Akul Sharma", email = "akuls3@illinois.edu"},
+]
+dependencies = [
+    "numpy>=2.0.2",
+    "pandas>=2.3.1",
+    "tqdm>=4.67.1",
+    "wrds>=3.1.6",
+]
+
+[tool.setuptools]
+packages = ["notebooks", "TAQpipeline"]
