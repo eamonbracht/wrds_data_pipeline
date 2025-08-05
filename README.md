@@ -44,13 +44,28 @@ Each row and column represents a PERMNO (stock ID). Values are Pearson correlati
 
 ---
 
-## Requirements
+## Getting Started
 
-- Python 3.7+
-- WRDS credentials
-- Packages:
-  - `wrds`
-  - `pandas`
-  - `numpy`
-  - `tqdm`
+1. Clone the repository:
+```bash
+https://github.com/eamonbracht/wrds_data_pipeline.git
+cd wrds_data_pipeline
+```
+2. Install dependencies: 
+```bash
+pip install uv
+uv pip install -e .
+```
+3. Open virtual environment
+```bash
+source .venv/bin/activate
+```
+## TODO
+- [ ] incorporate index price data 
+- [ ] incorporate firm fundamentals data 
+- [ ] wrap code in functions and document code: write doc strings 
+- [ ] move from `.csv` to `.parquet` file type for output
+- [ ] 
+
+
 
